@@ -16,7 +16,7 @@ hardhat是一款以太坊软件的开发工具
     - `gas`：进行gaslimit的设置，可以设定想要的值，但是**默认值为“auto”**
     - `gasPrice`：设置gas的价格，和gas类似，**默认值为“auto”**
     - `gasMultiplier`：由于gas消耗量存在误差，设置一个值用来乘以预估之后扩大gas的消耗量保证合约能够运行。**默认值为1**.
-    - `accounts`：Hardhat能够使用的账户，可以输入一个私钥数组指定可以使用的账户，或者使用一个HD Wallet。**默认值为“remote”**，即为使用远程节点中的账户
+    - `accounts`：Hardhat能够使用的账户，可以输入一个私钥数组指定可以使用的账户，或者使用一个HD Wallet。**默认值为“remote”**，即为使用远程节点中的账户。
     - `httpHeaders`：通过此项设置在发送JSON-RPC请求时使用额外的Http报头，**默认值为“undifined”**。
     - `timeout`：设置JSON-RPC请求的超时时间，**默认值为本地主机40000，其他为20000**
 - 默认的网络配置
